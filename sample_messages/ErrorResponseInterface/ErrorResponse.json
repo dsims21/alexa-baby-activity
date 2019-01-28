@@ -1,0 +1,14 @@
+{
+"event": {
+    "header": {
+      "namespace": "Alexa.Health",
+      "name": "ErrorResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "payload": {
+      "type": "<error type>",
+      "message": "<error message>"
+    }
+  }
+}

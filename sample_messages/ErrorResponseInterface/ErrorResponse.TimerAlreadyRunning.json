@@ -1,0 +1,15 @@
+{
+"event": {
+    "header": {
+      "namespace": "Alexa.Health",
+      "name": "ErrorResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "payload": {
+      "type": "TIMER_ALREADY_RUNNING",
+      "message": "There is already a timer running.",
+      "elapsedTime": "PT3H15M"
+    }
+  }
+}
