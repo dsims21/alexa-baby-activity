@@ -1,0 +1,25 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.Weight",
+      "name": "Add",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile to associate with the weight measurement>"
+    },
+    "payload": {
+      "weightMeasurement": {
+        "measurementTime": "2018-05-30T08:15Z",
+        "weight": {
+          "value": "9.125",
+          "unit": "POUND",
+        }
+      }
+    }
+  }
+}

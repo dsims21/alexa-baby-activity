@@ -1,0 +1,13 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.Weight",
+      "name": "AddResponse",
+      "payloadVersion": "1",
+      "messageId": "<message id>"
+    },
+    "payload": {
+      "entryId": "<entry id>"
+    }
+  }
+}

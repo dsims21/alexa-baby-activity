@@ -1,0 +1,29 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.Weight",
+      "name": "GetResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "payload": {
+      "nextToken": "3",
+      "weightMeasurements": [
+        {
+          "measurementTime": "2018-05-30T08:15Z",
+          "weight": {
+            "value": "9.125",
+            "unit": "POUND"
+          }
+        },
+        {
+            "measurementTime": "2018-05-30T22:30Z",
+            "weight": {
+              "value": "9.250",
+              "unit": "POUND"
+          }
+        }
+      ]
+    }
+  }
+}

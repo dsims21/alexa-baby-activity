@@ -1,0 +1,35 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.Weight",
+      "name": "Get",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile associated with the weight measurements>"
+    },
+    "payload": {
+      "queryParameters": {
+        "maxResults": "2",
+        "nextToken": "<token indicating starting offset for next paginated result>",
+        "filterParameters": [
+          {
+            "fieldName": "measurementTime",
+            "operator": "GTE",
+            "value": "2018-05-30T00:00:00Z"
+          }
+        ],
+        "sortParameters": [
+          {
+            "fieldName": "measurementTime",
+            "order": "DESC"
+          }
+        ]
+      }
+    }
+  }
+}
