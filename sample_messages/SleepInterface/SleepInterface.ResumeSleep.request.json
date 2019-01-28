@@ -1,0 +1,19 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.Sleep",
+      "name": "Resume",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile associated with the sleep session>"
+    },
+    "payload": {
+      "resumeTime": "2018-03-15T02:30Z"
+    }
+  }
+}

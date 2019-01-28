@@ -1,0 +1,36 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.Sleep",
+      "name": "GetResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "payload":{
+      "nextToken": "4",
+      "sleepMeasurements": [
+        {
+          "startTime": "2018-05-30T22:00Z",
+          "endTime": "2018-05-31T06:00Z",
+          "sleep": {
+            "duration": "PT8H"
+          }
+        },
+        {
+          "startTime": "2018-05-31T14:00Z",
+          "endTime": "2018-05-31T14:30Z",
+          "sleep": {
+            "duration": "PT30M"
+          }
+      },
+        {
+          "startTime": "2018-05-31T22:30Z",
+          "endTime": "2018-06-01T06:30Z",
+          "sleep": {
+            "duration": "PT8H"
+          }
+        }
+      ]
+    }
+  }
+}

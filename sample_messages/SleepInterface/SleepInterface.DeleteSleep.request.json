@@ -1,0 +1,19 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.Sleep",
+      "name": "Delete",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile associated with the sleep session>"
+    },
+    "payload": {
+      "entryId": "<entry id>"
+    }
+  }
+}

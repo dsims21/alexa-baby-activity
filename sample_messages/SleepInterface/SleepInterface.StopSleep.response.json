@@ -1,0 +1,14 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.Sleep",
+      "name": "StopResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1",
+    },
+    "payload": {
+      "duration": "PT30M",
+      "entryId": "<entry id>"
+    }
+  }
+}
