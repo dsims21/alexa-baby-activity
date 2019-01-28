@@ -1,0 +1,33 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.DiaperChange",
+      "name": "GetResponse",
+      "payloadVersion": "1",
+      "messageId": "<message id>"
+    },
+    "payload": {
+      "nextToken": "4",
+      "diaperChangeMeasurements": [
+        {
+          "measurementTime": "2018-12-01T05:30Z",
+          "diaplerChange": {
+            "type": "MIXED"
+          }
+        },
+        {
+          "measurementTime": "2018-12-01T09:30Z",
+          "diaplerChange": {
+            "type": "DIRTY"
+          }
+        },       
+        {
+          "measurementTime": "2018-12-01T13:30Z",
+          "diaplerChange": {
+            "type": "WET"
+          }
+        }
+      ]
+    }
+  }
+}

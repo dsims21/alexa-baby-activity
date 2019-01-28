@@ -1,0 +1,25 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.DiaperChange",
+      "name": "Add",
+      "messageId": "<message id>",
+      "correlationToken": "<correlation token>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile to associate with the diaper change>"
+    },
+    "payload": {
+      "diaperChangeMeasurement": {
+        "measurementTime": "<measurementTime>",
+        "diaperChange": {
+          "type": "WET"
+        }
+      }
+    }
+  }
+}

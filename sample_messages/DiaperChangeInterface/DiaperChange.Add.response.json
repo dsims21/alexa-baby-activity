@@ -1,0 +1,13 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.DiaperChange",
+      "name": "AddResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1",
+    },
+    "payload": {
+      "entryId": "<entry id>"
+    }
+  }
+}
