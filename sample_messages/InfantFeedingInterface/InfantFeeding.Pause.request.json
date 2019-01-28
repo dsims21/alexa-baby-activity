@@ -1,0 +1,19 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "Pause",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile associated with the feeding session>"
+    },
+    "payload": {
+      "pauseTime": "2018-03-14T05:36Z"
+    }
+  }
+}

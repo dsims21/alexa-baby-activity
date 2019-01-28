@@ -1,0 +1,23 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "Stop",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile associated with the feeding session>"
+    },
+    "payload": {
+      "stopTime": "2018-03-14T05:40Z",
+      "quantity": {
+        "value": 5,
+        "unit": "US_FLUID_OUNCE"
+      }
+    }
+  }
+}

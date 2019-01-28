@@ -1,0 +1,13 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "SwitchResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "payload": {
+      "currentNursingSide": "RIGHT"
+    }
+  }
+}

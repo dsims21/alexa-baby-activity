@@ -1,0 +1,21 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "Start",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile to associate with the feeding session>"
+    },
+    "payload": {
+      "startTime": "2018-03-14T05:30Z",
+      "type": "NURSING",
+      "nursingStartSide": "LEFT"
+    }
+  }
+}

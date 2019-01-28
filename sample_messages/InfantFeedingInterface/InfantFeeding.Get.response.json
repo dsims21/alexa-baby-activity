@@ -1,0 +1,50 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "GetResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "payload": {
+      "nextToken": "4",
+      "feedingMeasurements": [
+        {
+          "type": "BOTTLE",
+          "startTime": "2018-05-30T20:15:00Z",
+          "bottleFeeding": {
+            "contentType": "FORMULA",
+            "quantity": {
+              "value": 5.6,
+              "unit": "US_FLUID_OUNCE"
+            }
+          }
+        },
+        {
+          "type": "BOTTLE",
+          "startTime": "2018-05-30T18:30:00Z",
+          "bottleFeeding": {
+            "contentType": "FORMULA",
+            "quantity": {
+              "value": 6.0,
+              "unit": "US_FLUID_OUNCE"
+            }
+          }
+        },
+        {
+          "type": "NURSING",
+          "startTime": "2018-05-30T16:00:00Z",
+          "breastFeeding": {
+            "type": "BOTH_SIDES",
+            "dualSideBreastFeeding": {
+              "leftDuration": "PT5M",
+              "rightDuration": "PT7M",
+              "totalDuration": "PT12M",
+              "lastSide": "LEFT"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

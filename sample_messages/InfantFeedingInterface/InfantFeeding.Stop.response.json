@@ -1,0 +1,14 @@
+{
+  "event": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "StopResponse",
+      "messageId": "<message id>",
+      "payloadVersion": "1",
+    },
+    "payload": {
+      "duration": "PT8M",
+      "entryId": "<entry id>"
+    }
+  }
+}

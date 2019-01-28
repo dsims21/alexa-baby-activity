@@ -1,0 +1,35 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "Get",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile associated with the feeding measurements>"
+    },
+    "payload": {
+      "queryParameters": {
+        "maxResults": "3",
+        "nextToken": "<token indicating starting offset for next paginated result>",
+        "filterParameters": [
+          {
+            "fieldName": "startTime",
+            "comparisonOperator": "GTE",
+            "value": "2018-05-30T00:00:00Z"
+          }
+        ],
+        "sortParameters": [
+          {
+            "fieldName": "startTime",
+            "order": "DESC"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.Health.InfantFeeding",
+      "name": "Add",
+      "messageId": "<message id>",
+      "payloadVersion": "1"
+    },
+    "profile": {
+      "scope": {
+        "token": "<an OAuth2 bearer token>"
+      },
+      "profileId": "<the identifier for the profile to associate with the feeding session>"
+    },
+    "payload": {
+      "feedingMeasurement": {
+        "type": "BOTTLE",
+        "startTime": "2018-03-14T06:30Z",
+        "bottleFeeding": {
+          "duration": "PT5M",
+          "contentType": "FORMULA"
+        }
+      }
+    }
+  }
+}
