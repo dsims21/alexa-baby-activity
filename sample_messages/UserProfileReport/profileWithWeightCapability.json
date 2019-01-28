@@ -1,0 +1,23 @@
+{
+  "report": {
+    "messageId": "<message id>",
+    "profiles": [
+      {
+        "profileId": "<profile id>",
+        "name": {
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "nickNames": ["Janie", "Mom"]
+        },
+        "capabilities": [
+          {
+            "name": "Alexa.Health.Weight",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get"]
+          }
+        ]
+      }
+    ]
+  }
+}

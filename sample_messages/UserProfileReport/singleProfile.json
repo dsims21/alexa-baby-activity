@@ -1,0 +1,28 @@
+{
+  "report": {
+    "messageId": "<message id>",
+    "profiles": [
+      {
+        "profileId": "<profile id>",
+        "name": {
+          "firstName": "John",
+          "lastName": "Doe"
+        },
+        "capabilities": [
+          {
+            "name": "Alexa.Health.Weight",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get"]
+          },
+          {
+            "name": "Alexa.Health.Sleep",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get"]
+          }
+        ]
+      }
+    ]
+  }
+}

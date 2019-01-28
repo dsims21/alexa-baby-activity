@@ -1,0 +1,68 @@
+{
+  "report": {
+    "messageId": "<message id>",
+    "profiles": [
+
+      {
+        "profileId": "<profile id>",
+        "name": {
+          "firstName": "Jane",
+          "lastName": "Doe",
+          "nickNames": ["Mom"]
+        },
+        "capabilities": [
+          {
+            "name": "Alexa.Health.Weight",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get"]
+          },
+          {
+            "name": "Alexa.Health.BreastPumping",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get", "Start", "Pause", "Resume", "Cancel", "Stop"]
+          }
+        ]
+      },
+      {
+        "profileId": "<profile id>",
+        "name": {
+          "firstName": "John",
+          "lastName": "Doe",
+          "nickNames": ["Jack", "Junior"]
+        },
+        "capabilities": [
+          {
+            "name": "Alexa.Health.Sleep",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get"]
+          }
+        ]
+      },
+      {
+        "profileId": "<profile id>",
+        "name": {
+          "firstName": "Jennifer",
+          "lastName": "Doe",
+          "nickNames": ["Baby", "Jenny"]
+        },
+        "capabilities": [
+            {
+              "name": "Alexa.Health.DiaperChange",
+              "type": "AlexaInterface",
+              "version": "1",
+              "supportedOperations": ["Add", "Delete", "Get"]
+            },
+          {
+            "name": "Alexa.Health.InfantFeeding",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get", "Start", "Switch", "Pause", "Resume", "Cancel", "Stop"]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "report": {
+    "messageId": "<message id>",
+    "profiles": [
+      {
+        "profileId": "<profile id>",
+        "name": {
+          "firstName": "Baby",
+          "lastName": "Doe",
+          "nickNames": ["Baby", "Junior"]
+        },
+        "capabilities": [
+          {
+            "name": "Alexa.Health.Sleep",
+            "type": "AlexaInterface",
+            "version": "1",
+            "supportedOperations": ["Add", "Delete", "Get", "Start", "Pause", "Resume", "Cancel", "Stop"]
+          }
+        ]
+      }
+    ]
+  }
+}
