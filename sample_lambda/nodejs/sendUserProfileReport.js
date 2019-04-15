@@ -55,8 +55,8 @@ getAccessAndRefreshTokens = module.exports.getAccessAndRefreshTokens = function(
       grant_type: 'authorization_code',
       code: authorizationCode,
       // clientId and client secret retrieved from Permissions Section on Developer Portal on enabling Send Alexa Profiles toggle
-      client_id: 'amzn1.application-oa2-client.ae598cb4721a48ffb4b247e40b9e7f33',
-      client_secret: '578f07d38891bbcfb3d22e9b548e008b10d5f1c1e73811a3d82ce6fafd29e3fa'
+      client_id: '<replace_with_your_clientId>',
+      client_secret: '<replace_with_your_clientSecret>'
     });
     
     log('getAccessAndRefreshTokens', 'requestOptions: ' + stringify(options) + 'post_data ' + stringify(post_data));
