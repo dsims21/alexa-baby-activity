@@ -1,5 +1,5 @@
 /**
- * Copyright <YEAR> Amazon.com, Inc. and its affiliates. All Rights Reserved.
+ * Copyright 2019 Amazon.com, Inc. and its affiliates. All Rights Reserved.
 
  * Licensed under the Amazon Software License (the "License").
  * You may not use this file except in compliance with the License.
@@ -366,7 +366,7 @@ handleSwitchDirective = exports.handleResumeDirective = function(event) {
 }
 
 /*
-  Samples kill returns error response if an unknown directive and heath measurement type
+  Sample skill returns error response if an unknown directive and heath measurement type
   (or AlexaHealth interface type) is received.
 */
 handleUnsupportedDirective = exports.handleUnsupportedDirective = function(event) {

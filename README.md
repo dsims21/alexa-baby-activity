@@ -48,8 +48,9 @@ See [alexa baby activity skills kit](https://developer.amazon.com/docs/health/ov
        3. Upload the zip file to lambda. Use sample_messages provided in this repository to create test events and test the lambda.
 
    3. In Alexa developer console, Update lambda endpoint in  new skill to the lambda that was created by cloud formation template.
-   4. In your Alexa app, Log in with your developer credentials, go to Skills -> Dev skills section. You should see newly created sample baby activity skill. Enable the new skill and login with default test user credential(username: 'user', password: 'password'). The test user is associated with a baby with name 'Maggie'. After successful login, the baby profile(Maggie in this case) is sent to Alexa automatically.
-   5. Start using Alexa to track Maggie's activity!. For eg, you can say
+   4. Configure Alexa Skills Kit trigger, See [configuring-the-alexa-skills-kit-trigger](https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html#configuring-the-alexa-skills-kit-trigger) for more details.
+   5. In your Alexa app, Log in with your developer credentials, go to Skills -> Dev skills section. You should see newly created sample baby activity skill. Enable the new skill and login with default test user credential(username: 'user', password: 'password'). The test user is associated with a baby with name 'Maggie'. After successful login, the baby profile(Maggie in this case) is sent to Alexa automatically.
+   6. Start using Alexa to track Maggie's activity!. For eg, you can say
      * Alexa, log a wet diaper for Maggie.
      * Alexa, log a bottle feeding of six ounces.For more sample utterances see [baby-activity-skills](https://developer.amazon.com/docs/health/overview.html#utterances)
 
