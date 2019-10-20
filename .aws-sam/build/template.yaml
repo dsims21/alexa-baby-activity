@@ -1,0 +1,9 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: skillLambda.handler
+      CodeUri: Function
+      Runtime: nodejs10.x
+      Timeout: 300
+      MemorySize: 128
